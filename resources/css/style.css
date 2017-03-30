@@ -28,7 +28,11 @@ html{
   background-color: #000;
 }
 
-.nav li a {
+.navbar-nav>li>a {
+  line-height: 3.875rem;
+}
+
+.nav>li>a {
   padding: 0 20px;
 }
 
@@ -50,9 +54,9 @@ html{
   color: #fff;
 }
 
-.nav ul.nav a:hover {
+/*.nav ul.nav a:hover {
   color: #fff;
-}
+}*/
 
 .mobile-logo {
   display: none;
